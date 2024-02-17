@@ -1,0 +1,45 @@
+body {
+  background-color: #f3f3f3;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*Fade in everything*/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+* {
+  animation: fadeIn 1s;
+}
+
+.newspaper {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.headline {
+  font-size: 24px;
+  font-weight: bold;
+}
+.subheadline {
+  font-size: 18px;
+  color: #666;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+.article {
+  margin-bottom: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
